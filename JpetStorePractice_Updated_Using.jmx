@@ -237,12 +237,12 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="T02_Login">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="T02_Login" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-21 /actions/Account.action;jsessionid=393E0E736724397FB4B019228A56B52B">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-21 /actions/Account.action;jsessionid=393E0E736724397FB4B019228A56B52B" enabled="true">
             <intProp name="HTTPSampler.concurrentPool">6</intProp>
             <stringProp name="HTTPSampler.domain">${host}</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
@@ -264,7 +264,7 @@
             </elementProp>
           </HTTPSamplerProxy>
           <hashTree>
-            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager">
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Sec-Fetch-Mode" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
@@ -377,7 +377,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-23 /actions/Account.action">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="-23 /actions/Account.action" enabled="true">
             <stringProp name="TestPlan.comments">Detected the start of a redirect chain</stringProp>
             <intProp name="HTTPSampler.concurrentPool">6</intProp>
             <stringProp name="HTTPSampler.domain">${host}</stringProp>
@@ -1027,7 +1027,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="T05_SelectItem">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="T05_SelectItem" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
@@ -1538,7 +1538,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="T09_Logout">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="T09_Logout" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
