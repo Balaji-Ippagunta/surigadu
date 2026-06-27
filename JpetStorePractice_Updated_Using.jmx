@@ -82,7 +82,7 @@
       </kg.apc.jmeter.threads.UltimateThreadGroup>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group">
-        <stringProp name="TestPlan.comments">Balaji thread Updated again</stringProp>
+        <stringProp name="TestPlan.comments">Balaji thread Updated</stringProp>
         <intProp name="ThreadGroup.num_threads">1</intProp>
         <intProp name="ThreadGroup.ramp_time">5</intProp>
         <longProp name="ThreadGroup.duration">300</longProp>
