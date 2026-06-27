@@ -1907,7 +1907,7 @@ without actual network activity. This helps debugging tests.</stringProp>
           <stringProp name="filename">D:\Preps\JMeterPracticeScript\result\result.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
